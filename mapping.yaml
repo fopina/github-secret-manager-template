@@ -1,0 +1,20 @@
+groups:
+  pypi-publishing:
+    secrets:
+      - PYPI_TOKEN
+      - TESTPYPI_TOKEN
+    targets:
+      - repository: fopina/classyclick
+      - repository: fopina/fifa-panini-pack-finder
+      - repository: fopina/future-healthcare-cli
+      - repository: fopina/monsieur-cuisine-cli
+      - repository: fopina/pyautogui-next
+      - repository: fopina/python-educabiz
+      - repository: fopina/python-package-template
+      - repository: fopina/python-readme-example-tester
+      - repository: fopina/telecodex
+secrets:
+  TAP_TOKEN:
+    targets:
+      - repository: fopina/privatebin
+      - repository: fopina/speedtest-cli
